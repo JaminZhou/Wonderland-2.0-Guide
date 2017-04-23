@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AA78B501EACE23C00D2CB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA78B4F1EACE23C00D2CB52 /* AppDelegate.swift */; };
+		7AA78B521EACE23C00D2CB52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA78B511EACE23C00D2CB52 /* ViewController.swift */; };
+		7AA78B551EACE23C00D2CB52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA78B531EACE23C00D2CB52 /* Main.storyboard */; };
+		7AA78B571EACE23C00D2CB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA78B561EACE23C00D2CB52 /* Assets.xcassets */; };
+		7AA78B5A1EACE23C00D2CB52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA78B581EACE23C00D2CB52 /* LaunchScreen.storyboard */; };
+		7AA78B621EACE2F800D2CB52 /* GuideView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA78B611EACE2F800D2CB52 /* GuideView1.swift */; };
+		7AA78B641EACE30E00D2CB52 /* GuideView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA78B631EACE30E00D2CB52 /* GuideView2.swift */; };
+		7AA78B661EACE31600D2CB52 /* GuideView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA78B651EACE31600D2CB52 /* GuideView3.swift */; };
+		926554A163EB6388A6FC5490 /* Pods_Wonderland_2_0_Guide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366A354A2AEC4622E0E5A153 /* Pods_Wonderland_2_0_Guide.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		131FC82002E0F56EEF286CB0 /* Pods-Wonderland-2.0-Guide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wonderland-2.0-Guide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wonderland-2.0-Guide/Pods-Wonderland-2.0-Guide.debug.xcconfig"; sourceTree = "<group>"; };
+		34ABD08F026C23B9F19684D1 /* Pods-Wonderland-2.0-Guide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wonderland-2.0-Guide.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wonderland-2.0-Guide/Pods-Wonderland-2.0-Guide.release.xcconfig"; sourceTree = "<group>"; };
+		366A354A2AEC4622E0E5A153 /* Pods_Wonderland_2_0_Guide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wonderland_2_0_Guide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA78B4C1EACE23C00D2CB52 /* Wonderland-2.0-Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wonderland-2.0-Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA78B4F1EACE23C00D2CB52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AA78B511EACE23C00D2CB52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AA78B541EACE23C00D2CB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AA78B561EACE23C00D2CB52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AA78B591EACE23C00D2CB52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AA78B5B1EACE23C00D2CB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA78B611EACE2F800D2CB52 /* GuideView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideView1.swift; sourceTree = "<group>"; };
+		7AA78B631EACE30E00D2CB52 /* GuideView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideView2.swift; sourceTree = "<group>"; };
+		7AA78B651EACE31600D2CB52 /* GuideView3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideView3.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AA78B491EACE23C00D2CB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926554A163EB6388A6FC5490 /* Pods_Wonderland_2_0_Guide.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3635F6C2098C9A408E7A6174 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				366A354A2AEC4622E0E5A153 /* Pods_Wonderland_2_0_Guide.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BC364305220EF0D0504EFA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				131FC82002E0F56EEF286CB0 /* Pods-Wonderland-2.0-Guide.debug.xcconfig */,
+				34ABD08F026C23B9F19684D1 /* Pods-Wonderland-2.0-Guide.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7AA78B431EACE23C00D2CB52 = {
+			isa = PBXGroup;
+			children = (
+				7AA78B4E1EACE23C00D2CB52 /* Wonderland-2.0-Guide */,
+				7AA78B4D1EACE23C00D2CB52 /* Products */,
+				3BC364305220EF0D0504EFA4 /* Pods */,
+				3635F6C2098C9A408E7A6174 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7AA78B4D1EACE23C00D2CB52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AA78B4C1EACE23C00D2CB52 /* Wonderland-2.0-Guide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AA78B4E1EACE23C00D2CB52 /* Wonderland-2.0-Guide */ = {
+			isa = PBXGroup;
+			children = (
+				7AA78B4F1EACE23C00D2CB52 /* AppDelegate.swift */,
+				7AA78B511EACE23C00D2CB52 /* ViewController.swift */,
+				7AA78B611EACE2F800D2CB52 /* GuideView1.swift */,
+				7AA78B631EACE30E00D2CB52 /* GuideView2.swift */,
+				7AA78B651EACE31600D2CB52 /* GuideView3.swift */,
+				7AA78B531EACE23C00D2CB52 /* Main.storyboard */,
+				7AA78B561EACE23C00D2CB52 /* Assets.xcassets */,
+				7AA78B581EACE23C00D2CB52 /* LaunchScreen.storyboard */,
+				7AA78B5B1EACE23C00D2CB52 /* Info.plist */,
+			);
+			path = "Wonderland-2.0-Guide";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AA78B4B1EACE23C00D2CB52 /* Wonderland-2.0-Guide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA78B5E1EACE23C00D2CB52 /* Build configuration list for PBXNativeTarget "Wonderland-2.0-Guide" */;
+			buildPhases = (
+				36DF47DEC743077B1FD32658 /* [CP] Check Pods Manifest.lock */,
+				7AA78B481EACE23C00D2CB52 /* Sources */,
+				7AA78B491EACE23C00D2CB52 /* Frameworks */,
+				7AA78B4A1EACE23C00D2CB52 /* Resources */,
+				BD958FA10CFA92B19122DB42 /* [CP] Embed Pods Frameworks */,
+				57EBCB0171ED6C45572D2294 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wonderland-2.0-Guide";
+			productName = "Wonderland-2.0-Guide";
+			productReference = 7AA78B4C1EACE23C00D2CB52 /* Wonderland-2.0-Guide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AA78B441EACE23C00D2CB52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hangzhou Tomorning Technology Co., Ltd.";
+				TargetAttributes = {
+					7AA78B4B1EACE23C00D2CB52 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = RVRG597GCP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7AA78B471EACE23C00D2CB52 /* Build configuration list for PBXProject "Wonderland-2.0-Guide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AA78B431EACE23C00D2CB52;
+			productRefGroup = 7AA78B4D1EACE23C00D2CB52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AA78B4B1EACE23C00D2CB52 /* Wonderland-2.0-Guide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AA78B4A1EACE23C00D2CB52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA78B5A1EACE23C00D2CB52 /* LaunchScreen.storyboard in Resources */,
+				7AA78B571EACE23C00D2CB52 /* Assets.xcassets in Resources */,
+				7AA78B551EACE23C00D2CB52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36DF47DEC743077B1FD32658 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57EBCB0171ED6C45572D2294 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wonderland-2.0-Guide/Pods-Wonderland-2.0-Guide-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD958FA10CFA92B19122DB42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wonderland-2.0-Guide/Pods-Wonderland-2.0-Guide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AA78B481EACE23C00D2CB52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA78B621EACE2F800D2CB52 /* GuideView1.swift in Sources */,
+				7AA78B521EACE23C00D2CB52 /* ViewController.swift in Sources */,
+				7AA78B661EACE31600D2CB52 /* GuideView3.swift in Sources */,
+				7AA78B641EACE30E00D2CB52 /* GuideView2.swift in Sources */,
+				7AA78B501EACE23C00D2CB52 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7AA78B531EACE23C00D2CB52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA78B541EACE23C00D2CB52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AA78B581EACE23C00D2CB52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA78B591EACE23C00D2CB52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AA78B5C1EACE23C00D2CB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AA78B5D1EACE23C00D2CB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AA78B5F1EACE23C00D2CB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 131FC82002E0F56EEF286CB0 /* Pods-Wonderland-2.0-Guide.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RVRG597GCP;
+				INFOPLIST_FILE = "Wonderland-2.0-Guide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.tomorning.Wonderland-2-0-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7AA78B601EACE23C00D2CB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34ABD08F026C23B9F19684D1 /* Pods-Wonderland-2.0-Guide.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RVRG597GCP;
+				INFOPLIST_FILE = "Wonderland-2.0-Guide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.tomorning.Wonderland-2-0-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AA78B471EACE23C00D2CB52 /* Build configuration list for PBXProject "Wonderland-2.0-Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA78B5C1EACE23C00D2CB52 /* Debug */,
+				7AA78B5D1EACE23C00D2CB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA78B5E1EACE23C00D2CB52 /* Build configuration list for PBXNativeTarget "Wonderland-2.0-Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA78B5F1EACE23C00D2CB52 /* Debug */,
+				7AA78B601EACE23C00D2CB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AA78B441EACE23C00D2CB52 /* Project object */;
+}
