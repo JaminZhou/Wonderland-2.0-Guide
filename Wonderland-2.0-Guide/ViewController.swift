@@ -24,8 +24,8 @@ class ViewController: UIViewController {
         addGuideView2()
         addGuideView3()
         
-        view.bringSubview(toFront: pagingScrollView)
-        view.bringSubview(toFront: pageControl)
+        view.bringSubviewToFront(pagingScrollView)
+        view.bringSubviewToFront(pageControl)
     }
     
     func addPagingScrollView() {

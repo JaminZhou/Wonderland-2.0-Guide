@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import pop
 
 class GuideView2: UIView {
 
@@ -37,11 +36,12 @@ class GuideView2: UIView {
     }
     
     func showLeafAnimation() {
-        let ratio = bounds.size.width/375.0
-        let leaf = UIImageView(frame: CGRect(x: 0, y: 0, width: 34*ratio, height: 45*ratio))
+        let wRatio = bounds.size.width/375.0
+        let hRatio = bounds.size.height/667.0
+        let leaf = UIImageView(frame: CGRect(x: 0, y: 0, width: 34*wRatio, height: 45*hRatio))
         leaf.image = #imageLiteral(resourceName: "leaf")
         leaf.layer.anchorPoint = CGPoint(x: 22/34.0, y: 0)
-        leaf.layer.position = CGPoint(x: 210*ratio, y: 415*ratio)
+        leaf.layer.position = CGPoint(x: 210*wRatio, y: 415*hRatio)
         addSubview(leaf)
         
         leafAnimation(leaf, clockwise: true)
@@ -65,7 +65,7 @@ class GuideView2: UIView {
         emitter.frame = rect
         layer.addSublayer(emitter)
         
-        emitter.emitterShape = kCAEmitterLayerRectangle
+        emitter.emitterShape = .rectangle
         emitter.emitterPosition = CGPoint(x: rect.size.width/2, y: rect.size.height/2)
         emitter.emitterSize = rect.size
         

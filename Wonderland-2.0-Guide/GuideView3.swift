@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import pop
 
 class GuideView3: UIView {
     
@@ -71,22 +70,23 @@ class GuideView3: UIView {
     }
     
     func showWindmillAnimation() {
-        let ratio = bounds.size.width/375
+        let wRatio = bounds.size.width/375.0
+        let hRatio = bounds.size.height/667.0
         let windmill = UIImageView(image: #imageLiteral(resourceName: "windmill"))
-        windmill.center = CGPoint(x: 95.5*ratio, y: 524*ratio)
+        windmill.center = CGPoint(x: 95.5*wRatio, y: 524*hRatio)
         windmill.transform = CGAffineTransform.init(scaleX: 0.8, y: 0.8)
         addSubview(windmill)
         
         windmillAnimation(windmill)
     }
     
-    func  windmillAnimation(_ view: UIView) {
+    func windmillAnimation(_ view: UIView) {
         let random = (Double(arc4random()%10)+1)/10.0
         
         let rotationAnimation = POPBasicAnimation(propertyNamed: kPOPLayerRotation)!
         rotationAnimation.toValue = NSNumber(value: .pi*2.0)
         rotationAnimation.duration = 6+4*random
-        rotationAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        rotationAnimation.timingFunction = CAMediaTimingFunction(name: .linear)
         rotationAnimation.completionBlock = { anim, finished in
             self.windmillAnimation(view)
         }
